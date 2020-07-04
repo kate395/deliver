@@ -1,0 +1,215 @@
+@import url("https://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css");
+  @import url("https://fonts.googleapis.com/css?family=Play:300,400,700");
+  body{
+  background: #17212C;
+  font-family: 'Play',sans-serif;
+    color: #2b4452;
+}
+.blue { color: #185875; }
+.blue2 { color: #4DC3FA; }
+.yellow { color: #FFF842; }
+.white { color: #ffffff; }
+a { 
+    color: #F3F3F3;
+    font-family:'Play',sans-serif;
+    text-decoration: none;
+}
+a:hover { 
+    color: #00bfff;
+    text-decoration: none;
+}
+.btn{
+    cursor: pointer;
+}
+.container {
+    max-width: 2000px;
+}
+table{
+    table-layout: fixed;
+    word-wrap: break-word;
+    background: #ffffff;
+    color: #000000
+}
+#player{
+  margin: auto;
+  max-width: 1000px;
+}
+.ppl{
+    -webkit-border-radius: 6px 6px 6px 6px;
+    border-radius: 6px 6px 6px 6px;
+    -webkit-box-shadow: 2px 2px 8px 4px #A8A8A8;
+    box-shadow: 2px 2px 8px 4px #A8A8A8;
+    -webkit-box-shadow: 2px 2px 8px 4px #A8A8A8;
+    box-shadow: 2px 2px 8px 4px #A8A8A8;
+}
+h1,h2{
+    margin: 20px auto;
+    text-align: center;
+    color: #ffffff
+    font-family:'Play',sans-serif;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.media-body{zoom:1;overflow:hidden}
+.media-body{width:12000px}
+.media-object{display:block}
+.media-object.img-thumbnail{max-width:none}
+.media-right,.media>.pull-right{padding-left:10px}
+.media-left,.media>.pull-left{padding-right:10px}
+.media-left,.media-right,.media-body{display:table-cell;vertical-align:top}
+.media-heading{margin-top:0;margin-bottom:5px}
+
+/**events**/
+        .bbevent{
+            position:relative;
+            overflow: hidden;
+            background-color: #123345;
+            /**background: rgba(11,57,73,1); /* Old browsers */
+            padding:0px 27px;
+            background-size:100% 140%;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.25), 0 2px 5px rgba(0,0,0,0.42);
+            border:1px solid #333;
+            transition:all .178s ease;
+            margin-bottom:6px;
+            -webkit-box-sizing: border-box !important; 
+            -moz-box-sizing: border-box !important;
+            box-sizing: border-box !important;      
+            border-radius:3px;
+            width: 100%;
+            margin-bottom: 25px;
+        }
+        .bbevent:hover{
+            background: rgb(0, 95, 128);
+        }
+        .bbevent h3{
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 0px 0px 0px 0px;
+            font-family:'Play',sans-serif;
+            font-size: 20px;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 16px;
+            line-height: 1.4em;
+        }
+        .bbevent h4{
+            position: relative;
+            z-index: 4;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 10px 0px 0px 0px;
+            font-family:'Play',sans-serif;
+            font-size: 18px;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 16px;
+            line-height: 1.4em;
+        }
+        .bbevent h5{
+                position: relative;
+                z-index: 2;
+                font-family: 'Play',sans-serif;
+                font-weight: 500;
+                text-transform: uppercase;
+                padding: 0px 0px 0px 0px;
+                text-align: center;
+                font-size: 14px;
+                color: #ffffff;
+                line-height: 1.4em;
+        }
+        .bbevent .watch-li{
+            background: #313131;
+            border: 1px solid rgba(255,255,255,.5);
+            border-radius: 3px;
+            display: inline-block;
+            transition: all .4s ease;
+            margin-bottom: 11px;
+            font-family: 'Play',sans-serif;
+            box-shadow: 6px 6px 16px rgba(0,0,0,0.69), 0 2px 2px rgba(0,0,0,0.23);
+            text-align: center;
+            font-size:15px;
+            float: right;
+            margin-top: 10px;
+        }
+        .bbevent .watch-li:hover{
+            background: #015aa7;
+            text-decoration: none;
+        }
+        .bbevent .watch-li a{
+            color: #fff !important;
+            text-transform: uppercase;
+            display: block !important;
+            padding: 8px 10px;
+            transition: all .2s ease;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        .bbevent .image a{
+            color: #fff !important;
+            text-transform: uppercase;
+            display: block !important;
+            padding: 7px 0px;
+            transition: all .2s ease;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        .bbevent .ev-title{
+            float: none;
+        }
+        .event-block:hover .watch-ll a{
+        /*background: #F9A825;*/
+    background: #00695C;}
+         .event-block:hover .watch-l a{
+         background:#16A085;
+         }
+          .watch-ll {
+         background: #0097A7;
+         border: 1px solid rgba(255,255,255,.5);
+         border-radius: 3px;
+         display: block !important;
+         transition:all .4s ease;
+         margin-bottom:11px;
+         font-family:'Play',sans-serif;
+         box-shadow: 21px 15px 30px rgba(0,0,0,0.69), 0 6px 6px rgba(0,0,0,0.23);
+         }
+         .watch-ll > a{
+         display:block !important;
+         padding:16px 44px;
+         transition:all .2s ease;
+         font-family:'Play';
+         font-weight:700;
+         }
+         .watch-ll:hover {
+         background: #00695C;}
+         .watch-ll a {
+         color:#fff !important;
+         text-transform:uppercase;
+         }
+         .watch-ll { margin-top:22px; }
+         .navbar {
+          overflow: hidden;
+          background-color: #333;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          height: 12%;
+          }
+
+          .navbar a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+          }
+
+          .main {
+          padding: 16px;
+          margin-top: 30px;
+          height: 1500px; /* Used in this example to enable scrolling */
+          }
