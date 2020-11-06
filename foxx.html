@@ -1,0 +1,155 @@
+
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/clappr.chromecast-plugin/latest/clappr-chromecast-plugin.js"></script>
+
+<body>
+<div id="player">
+<meta name="referrer" content="no-referrer">
+ 
+   
+<script>
+</script>
+<script>
+
+var url = new URL(window.location.href);
+var ids =  url.searchParams.get("id");
+var co =  url.searchParams.get("co");
+  var cdcsd =  url.hostname;
+
+   // if  (cdcsd !== "www.mgstrm.website")
+//window.location.replace("http://mygoodstream.pw");
+
+ids  = atob(ids) ;
+  
+ 
+
+fetch(ids, {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+    "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg5REEwNkVEMjAxOCIsInR5cCI6IkpXVCJ9.eyJwaWQiOiJ3ZWJjMGEwYjdjNC0yNzU1LTRlZDItYjFmMC1iZWZhZTgxZjY2YWUiLCJ1aWQiOiJkMlZpWXpCaE1HSTNZelF0TWpjMU5TMDBaV1F5TFdJeFpqQXRZbVZtWVdVNE1XWTJObUZsIiwic2lkIjoiZThiODkzZmUtMGNjYS00NjgxLWJjYjYtYzUwNGI2YWZiOTBlIiwic2RjIjoidXMtZWFzdC0xIiwiYXR5cGUiOiJhbm9ueW1vdXMiLCJkdHlwZSI6IndlYiIsInV0eXBlIjoiZGV2aWNlSWQiLCJkaWQiOiJjMGEwYjdjNC0yNzU1LTRlZDItYjFmMC1iZWZhZTgxZjY2YWUiLCJtdnBkaWQiOiJEVFYiLCJ2ZXIiOjIsImV4cCI6MTYzNTI1MDEwNSwianRpIjoiYzI4ZmExODQtZTAxNi00NTE4LWJjODctOTQzOTBiYjIxODc2IiwiaWF0IjoxNjAzNzE0MTA1fQ.JqyFqEg5a4EmeqkY1yg_S85t6ReAxYQOqQDrheK4p__ESpHz2voYPSKeoHuvshWiGxW9bZyFmoHBKJjefVYjzClpj7ZT8uvf7-wuJ7uVhHS6AjY63HYfTyNsUAlGZ4ZxNMmhksED5Ldu0nKgqCq7s7so3nf5_XzPUvanZ-hMs6v6mPIFSIJtXIWm_CnGpdBCpFvpEszNj7P8InAS-euH_gkq0I3Do_buoN76rMAy3DsGOlxHStqE5QKmNMjHcYZiSC4kMj3e1gy7lKMUcht68O4PS0qdyB-4xnZZyDtZIBrB9i7xhsLfSZv1AucTGrIgJymcNjdVQjT9vKH9_4PQxQ",
+    "content-type": "application/json",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "x-api-key": "cf289e299efdfa39fb6316f259d1de93"
+  },
+  "referrer": "https://www.foxsports.com/nfl/boxscore?id=9089",
+  "referrerPolicy": "no-referrer-when-downgrade",
+  "body": null,
+  "method": "GET",
+ 
+}).then((response) => {
+    return response.json();
+  })
+  .then((myJson) => {
+
+fetch(  (myJson.url), {"credentials":"omit","headers":{"accept":"*/*","accept-language":"en-GB,en-US;q=0.9,en;q=0.8","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"cross-site"},"referrer":"https://www.foxsports.com/live/fs1","referrerPolicy":"no-referrer","body":null,"method":"GET"}).then((response) => {
+    return response.json();
+  })
+  .then((myJsons) => {
+        
+         
+  
+(function (open) {
+    window.XMLHttpRequest.prototype.open = function (method, url, async, user, pass) {
+         
+        if (url.indexOf("stgec") > -1) {
+            rewrittenUrl = url.replace('stgec','stgcf');
+        } 
+      else
+         if (url.indexOf("psreplay2") > -1) {
+            rewrittenUrl = "//mygoodstream.pw/key/uplynk3.php?id="+btoa(url);
+        } 
+        
+        else {
+            rewrittenUrl = url;
+        }
+        open.call(this, method, rewrittenUrl, async, user, pass);
+    };
+})(window.XMLHttpRequest.prototype.open);
+  
+ // var urlxx = new URL(myJsons.playURL);
+
+  //var pbs =  urlxx.searchParams.get("pbs");
+//
+//var cdcsdss =  urlxx.hostname;
+  
+ 
+   //  var sou = ("https://"+cdcsdss+"/channel/ab9513294ec74cc8affeeb95acd413ce/e.m3u8?pbs="+pbs);
+   
+      
+      
+      
+        var data = {source:myJsons.playURL}  
+            if(data.source != ""){
+            if (data.source.indexOf('chashbrc') != -1) {
+                flowplayer("#vid", {
+                    embed: false,
+                    fullscreen: true,
+                    share:false,
+                    allowfullscreen: true,
+                    native_fullscreen: true,
+                    autoplay: false,
+                    hlsjs: {
+                      xhrSetup: function(xhr) {
+                        xhr.withCredentials = false;
+                      }
+                    },
+                    clip: {
+                      live: true,
+                      sources: [
+                        { type: "application/x-mpegURL",
+                          src : data.source }
+                      ]
+                    }
+                });
+                document.cookie = "access=true";
+            } else {
+                player = new Clappr.Player({
+                source: data.source,
+                mimeType: "application/x-mpegURL",
+                    autoPlay: true,
+                    height: "100%",
+                    width: "100%",
+                    watermark: '',
+                    position: 'top-right',
+                    watermarkLink: "",
+                      poster: 'https://i.imgur.com/MtNnBE4.jpg',
+                plugins: {'core': [ChromecastPlugin,LevelSelector]},
+                parentId: "#player"});
+                if(data.replace != ""){
+                (function (open) {
+    XMLHttpRequest.prototype.open = function (method, url, async, user, pass) {
+  if (url.toLowerCase().indexOf('fwmrm.net') >= 0) {
+   return;
+  }
+  var rewrittenUrl = url;
+  rewrittenUrl = rewrittenUrl.replace('https://playback.svcs.mlb.com/silk/events/','http://bilasport.net/keys/Rays.php?');
+    open.call(this, method, rewrittenUrl, async, user, pass);
+    };
+})(XMLHttpRequest.prototype.open);
+                }
+            }
+        } else {
+            var img = new Image();
+            var div = document.getElementById('player');
+
+            img.onload = function() {
+              div.appendChild(img);
+            };
+            img.src = '';
+            img.className = "hold";
+        }
+setTimeout(function() {
+        $('.media-control-left-panel')['append']('<button style="" type="button" class="media-control-button media-control-icon enabled" data-hd-indicator="" aria-label="hd-indicator"><a href="//bilasport.net" target="_blank"><img src="https://i.imgur.com/4MRjE2n.png?1" /></a></button>')
+}, 5000)
+  
+  
+ 
+}); 
+ }); 
+</script></div></html>
