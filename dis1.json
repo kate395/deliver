@@ -1,0 +1,54 @@
+{
+  "data" : {
+    "attributes" : {
+      "protection" : {
+        "clearkeyEnabled" : false,
+        "drmEnabled" : true,
+        "drmToken" : "eyJhbGciOiJSUzI1NiIsImtpZCI6ImYxN2M1NWFkLTBhYmYtNTAwZi1mMTI2LTIwZjVlNjU2ZTE2OCIsIm9wZXJhdG9ySWQiOiIzMDg2In0.eyJleHAiOjE2ODMzMjgzMTUsImp0aSI6Ijc2MWRkMGMxLTU2YTktNGFiZi04ZTVjLWQzYTRjYmUwYWI4MCIsInNjb3BlIjoibGljQXV0aCIsIm9wZXJhdG9ySWQiOiIzMDg2IiwibW9kZSI6IlNUUkVBTUlORyIsImNvbnRlbnRJZCI6IjE1OTQyMTc1MjEiLCJjb250ZW50VHlwZSI6IkxJVkUiLCJsaWNlbnNlRHVyYXRpb24iOiJQVDI0SDBNMFMiLCJwbGF5YmFja0R1cmF0aW9uIjoiUFQyNEgwTTBTIiwidXJpUHJvZmlsZUlkIjoiRlJFRV9VU0FHRSJ9.AJsfPN4rYFVYsYtcN5gA69pV3QBvBST9aMQr3V1HPzFw8lncSs096iKQPmUEMZLIW0itvY8eedvymBzKeIqGAO8MDgpde1_5F-IE3o4dIZ7rkKsdAnlm6BglGf-p_Bwunvg3VaWSBhFv0sOoKUU_LI6lv5P9xRmhO6XQtc-yuzMtafkBAkbW2b2TbsyuSK95Xe-X_ed1UQZktdp2-HncjxmZjEc7IIwL0Jba10ghevxsB-wkJYh0gNQzntfw0ROCxuv3qjfRlF-EbqZHy4wsG_lhC9QUZxG1aN73YgDALZl2T8H71LJ3Yxp6-qeJA-BUNSwGqrn2VXk3dcKTO4Rphw",
+        "schemes" : {
+          "fairplay" : {
+            "certificateUrl" : "https://discovery-eur.conax.cloud/fairplay/certificates/A30BAEFF134A609B019CBBB0D5880803B5D5E9D0",
+            "licenseUrl" : "https://discovery-eur.conax.cloud/fairplay/license"
+          },
+          "playready" : {
+            "licenseUrl" : "https://discovery-eur.conax.cloud/cxplayready/rightsmanager.asmx"
+          },
+          "widevine" : {
+            "certificateUrl" : "https://discovery-eur.conax.cloud/widevine/certificates/conax",
+            "licenseUrl" : "https://discovery-eur.conax.cloud/widevine/license"
+          }
+        }
+      },
+      "reportProgressInterval" : 60000,
+      "streaming" : {
+        "dash" : {
+          "url" : "https://dplus-sport-live.akamai.prod-live.h264.io/primary/2/5e370f1fc0144337bb1022bfeba4cd3d/hdntl=exp=1683295915~acl=/primary/2/5e370f1fc0144337bb1022bfeba4cd3d/*~data=hdntl~hmac=1f7d170c440b416382fbccdea90c688d55b198d38690f271b5a9207a27738944/index.mpd?aws.manifestfilter=video_codec:h264&hdnts=exp=1683295915~acl=/primary/2/5e370f1fc0144337bb1022bfeba4cd3d/index.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264*~hmac=17146a52359126eca9aa7fae31878ce8c6862c191a3c49a4a281be7fcd22a193"
+        },
+        "hls" : {
+          "url" : "https://dplus-eu-cloudfront.prod-live.h264.io/primary/2/fe157401310b40839f8b3ce947d862cf/x-discovery-token=Expires=1683295915&KeyName=primary&Signature=kSJb3HffU_IZjvlIizIn7erOS8I/index.m3u8?aws.manifestfilter=video_codec:h264&hdnts=exp=1683295915~acl=/primary/2/fe157401310b40839f8b3ce947d862cf/index.m3u8%3Faws.manifestfilter%3Dvideo_codec%3Ah264*~hmac=d12016326acadd1aa24a4d6300f3e9353cb482d2ca87a79c893ce0a7e0ef9853"
+        },
+        "mss" : {
+          "url" : "https://dplus-sport-live.akamai.prod-live.h264.io/primary/2/b646e93ae4e0454592d664edf270b796/hdntl=exp=1683295915~acl=/primary/2/b646e93ae4e0454592d664edf270b796/*~data=hdntl~hmac=b0a096f7ad9b156ae7fff53a268c03ce76fd48cd0945eafa18059a6ed086d9e1/index.ism/Manifest?aws.manifestfilter=video_bitrate:900000-5500000;video_codec:h264&hdnts=exp=1683295915~acl=/primary/2/b646e93ae4e0454592d664edf270b796/index.ism/Manifest%3Faws.manifestfilter%3Dvideo_bitrate%3A900000-5500000%3Bvideo_codec%3Ah264*~hmac=2756c47bf4233cba25f32b16826f386a87362f490b3049abd0499a313ee288b0"
+        }
+      },
+      "userInfo" : {
+        "packages" : [ "Free", "Registered", "Fta", "SimulcastEntertainment", "LiveEventEntertainment", "CMore", "Bbc", "Olympic1", "Liiga", "VodEntertainment", "SvtSe", "CMoreFi", "LiveEventSport", "Allsvenskan", "SimulcastSport", "FtaFi", "VodSport" ]
+      }
+    },
+    "id" : "354",
+    "type" : "channelPlaybackInfo"
+  },
+  "meta" : {
+    "site" : {
+      "attributes" : {
+        "brand" : "dplus",
+        "brandId" : "dplus",
+        "mainTerritoryCode" : "dk",
+        "theme" : "dplus",
+        "websiteHostName" : ""
+      },
+      "id" : "dplus_dk",
+      "type" : "site"
+    }
+  }
+}
