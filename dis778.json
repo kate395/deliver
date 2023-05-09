@@ -1,0 +1,72 @@
+{
+    "data": {
+        "attributes": {
+            "protection": {
+                "clearkeyEnabled": false,
+                "drmEnabled": true,
+                "drmToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImYxN2M1NWFkLTBhYmYtNTAwZi1mMTI2LTIwZjVlNjU2ZTE2OCIsIm9wZXJhdG9ySWQiOiIzMDg2In0.eyJleHAiOjE2ODM3NjA1NDAsImp0aSI6IjlkZmI5ZDU0LTZiNTItNDJjNy1hZjljLWQ2ZGJiMTAwNjU0YiIsInNjb3BlIjoibGljQXV0aCIsIm9wZXJhdG9ySWQiOiIzMDg2IiwibW9kZSI6IlNUUkVBTUlORyIsImNvbnRlbnRJZCI6IjE1OTQyMTc1MjEiLCJjb250ZW50VHlwZSI6IkxJVkUiLCJsaWNlbnNlRHVyYXRpb24iOiJQVDI0SDBNMFMiLCJwbGF5YmFja0R1cmF0aW9uIjoiUFQyNEgwTTBTIiwidXJpUHJvZmlsZUlkIjoiRlJFRV9VU0FHRSJ9.PVipBHHhgtzS9dYed9i0cOtzSOLGnSUANWDDy0yVd3Xx7KRZDyJzf35GFX6-x_0IWB1O2F3wBRuyNL9LnyEtqyL0m6L6zWcXJq6UT8B0OiPeESo1wW2Hov7G34ky3HwQy59J0eD9RIUlbFNtsAcKIT0IIiOofbzLZGVFl43S3jh-QVGfYFcENYF98HeUEj63o5T3wl91YmP_rWuoVOk8iFXwjmu8WTTOfZUhdwVC5j69DFkVucU_euwPwVNx1w9dOvo0LpMBf8tb6TfZIpQjmdnW_XjwVFKj1yVI4li37pnGP2cB-21UQLD0wvXtj0WtODzPbQShKTLKvoeBqYC0Cw",
+                "schemes": {
+                    "fairplay": {
+                        "certificateUrl": "https://discovery-eur.conax.cloud/fairplay/certificates/A30BAEFF134A609B019CBBB0D5880803B5D5E9D0",
+                        "licenseUrl": "https://discovery-eur.conax.cloud/fairplay/license"
+                    },
+                    "playready": {
+                        "licenseUrl": "https://discovery-eur.conax.cloud/cxplayready/rightsmanager.asmx"
+                    },
+                    "widevine": {
+                        "certificateUrl": "https://discovery-eur.conax.cloud/widevine/certificates/conax",
+                        "licenseUrl": "https://discovery-eur.conax.cloud/widevine/license"
+                    }
+                }
+            },
+            "reportProgressInterval": 60000,
+            "streaming": {
+                "dash": {
+                    "url": "https://dplus-eu-cloudfront.prod-live.h264.io/primary/2/5e370f1fc0144337bb1022bfeba4cd3d/x-discovery-token=Expires=1683728140&KeyName=primary&Signature=HRutSmu7npuqEBGmbM7YwlLyKx4/index.mpd?aws.manifestfilter=video_codec:h264&hdnts=exp=1683728140~acl=/primary/2/5e370f1fc0144337bb1022bfeba4cd3d/index.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264*~hmac=3c1984221655bfa116e47e433b19db930e0e9446554485914f016c587276399b"
+                },
+                "hls": {
+                    "url": "https://dplus-eu-cloudfront.prod-live.h264.io/primary/2/fe157401310b40839f8b3ce947d862cf/x-discovery-token=Expires=1683728140&KeyName=primary&Signature=rKcXrrt-24GR4SzjBGgz9Gjukw8/index.m3u8?aws.manifestfilter=video_codec:h264&hdnts=exp=1683728140~acl=/primary/2/fe157401310b40839f8b3ce947d862cf/index.m3u8%3Faws.manifestfilter%3Dvideo_codec%3Ah264*~hmac=43c7918776a16012f636a2d5e1f5c0733cfd6c11345ae62c233c7772efc92824"
+                },
+                "mss": {
+                    "url": "https://dplus-sport-live.akamai.prod-live.h264.io/primary/2/b646e93ae4e0454592d664edf270b796/hdntl=exp=1683728140~acl=/primary/2/b646e93ae4e0454592d664edf270b796/*~data=hdntl~hmac=e190c57ba5c93beb13180a2f7e6db10cf79287cc9d5f8a9c261b93890cca6d62/index.ism/Manifest?aws.manifestfilter=video_bitrate:900000-5500000;video_codec:h264&hdnts=exp=1683728140~acl=/primary/2/b646e93ae4e0454592d664edf270b796/index.ism/Manifest%3Faws.manifestfilter%3Dvideo_bitrate%3A900000-5500000%3Bvideo_codec%3Ah264*~hmac=d15e8a870b7c88e384eb9375523b626fa951cafa5e10157f83ac8a506fde8881"
+                }
+            },
+            "userInfo": {
+                "packages": [
+                    "Free",
+                    "Registered",
+                    "Fta",
+                    "SimulcastEntertainment",
+                    "LiveEventEntertainment",
+                    "CMore",
+                    "Bbc",
+                    "Olympic1",
+                    "Liiga",
+                    "VodEntertainment",
+                    "SvtSe",
+                    "CMoreFi",
+                    "LiveEventSport",
+                    "Allsvenskan",
+                    "SimulcastSport",
+                    "FtaFi",
+                    "VodSport"
+                ]
+            }
+        },
+        "id": "354",
+        "type": "channelPlaybackInfo"
+    },
+    "meta": {
+        "site": {
+            "attributes": {
+                "brand": "dplus",
+                "brandId": "dplus",
+                "mainTerritoryCode": "dk",
+                "theme": "dplus",
+                "websiteHostName": ""
+            },
+            "id": "dplus_dk",
+            "type": "site"
+        }
+    }
+}
