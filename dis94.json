@@ -1,1 +1,72 @@
-
+{
+  "data": {
+    "attributes": {
+      "protection": {
+        "clearkeyEnabled": false,
+        "drmEnabled": true,
+        "drmToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImYxN2M1NWFkLTBhYmYtNTAwZi1mMTI2LTIwZjVlNjU2ZTE2OCIsIm9wZXJhdG9ySWQiOiIzMDg2In0.eyJleHAiOjE2ODQwODU3NzUsImp0aSI6ImNmMDJhZWU3LTQ3YzAtNDQwOS04N2ZmLWViMmNkOGRhOTE2OSIsInNjb3BlIjoibGljQXV0aCIsIm9wZXJhdG9ySWQiOiIzMDg2IiwibW9kZSI6IlNUUkVBTUlORyIsImNvbnRlbnRJZCI6IjE1OTQyMTUwMDMiLCJjb250ZW50VHlwZSI6IkxJVkUiLCJsaWNlbnNlRHVyYXRpb24iOiJQVDI0SDBNMFMiLCJwbGF5YmFja0R1cmF0aW9uIjoiUFQyNEgwTTBTIiwidXJpUHJvZmlsZUlkIjoiRlJFRV9VU0FHRSJ9.TDfP3sjiiyPswS6_dl6ZHrASBWs9_tfZZP0P-V7lhb08VAue3sOPFUTLNLsBdxlAud-unBGICrZ8D3WWk71ZZ8mQbh0gUxWOQWvk1jPaEpoYQabNwv9tDtNS4f16sVMC-Bm2oFryIhyW-IBGbUSMQ_uR4BusI1LE_visGXnSCivPggR5AyVg0GTfdFU9SWIKvdZT9rvn5G1Ou-iFFN2ACyDJ2GO-ALhuIUikizjhaadsCIcWjL5Cwqe72qITQGj3Gkn4gQTYSlQ1uDqdDz4YscedGFwICePAz-cexO3Kwfux7av-d1iJlZ1YNBnBc_jPSQUm1iTvVb3NeDdF2tp8QA",
+        "schemes": {
+          "fairplay": {
+            "certificateUrl": "https://discovery-eur.conax.cloud/fairplay/certificates/A30BAEFF134A609B019CBBB0D5880803B5D5E9D0",
+            "licenseUrl": "https://discovery-eur.conax.cloud/fairplay/license"
+          },
+          "playready": {
+            "licenseUrl": "https://discovery-eur.conax.cloud/cxplayready/rightsmanager.asmx"
+          },
+          "widevine": {
+            "certificateUrl": "https://discovery-eur.conax.cloud/widevine/certificates/conax",
+            "licenseUrl": "https://discovery-eur.conax.cloud/widevine/license"
+          }
+        }
+      },
+      "reportProgressInterval": 60000,
+      "streaming": {
+        "dash": {
+          "url": "https://dplus-eu-cloudfront.prod-live.h264.io/primary/1/329e6135a629448ebe8ac38417d1e048/x-discovery-token=Expires=1684053375&KeyName=primary&Signature=oRpgDsuOl9HfxcoBswUMXbeDe2w/index.mpd?aws.manifestfilter=video_codec:h264&hdnts=exp=1684053375~acl=/primary/1/329e6135a629448ebe8ac38417d1e048/index.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264*~hmac=a93d27c9357214a52b702644f998c85fa2eaf230c42ba0b5db56cf75e5cb9b25"
+        },
+        "hls": {
+          "url": "https://dplus-eu-cloudfront.prod-live.h264.io/primary/1/baddf3847c0d48699a3f6cbb91cdb58e/x-discovery-token=Expires=1684053375&KeyName=primary&Signature=y5UfvYdMHQ8Vobc3Y-dkoTHSJfM/index.m3u8?aws.manifestfilter=video_codec:h264&hdnts=exp=1684053375~acl=/primary/1/baddf3847c0d48699a3f6cbb91cdb58e/index.m3u8%3Faws.manifestfilter%3Dvideo_codec%3Ah264*~hmac=2800a436c3d9197579a3aa142e406b8c42cb1c7be9ca89322effde7deb2e9df1"
+        },
+        "mss": {
+          "url": "https://dplus-sport-live.akamai.prod-live.h264.io/primary/1/39aea005f8b74f6ca3136983d3eb040d/hdntl=exp=1684053375~acl=/primary/1/39aea005f8b74f6ca3136983d3eb040d/*~data=hdntl~hmac=0251c79d746fa660a1c52a3efd1633b6c88d4cf7a134b2e70bae5d6ccf5ede6e/index.ism/Manifest?aws.manifestfilter=video_bitrate:900000-5500000;video_codec:h264&hdnts=exp=1684053375~acl=/primary/1/39aea005f8b74f6ca3136983d3eb040d/index.ism/Manifest%3Faws.manifestfilter%3Dvideo_bitrate%3A900000-5500000%3Bvideo_codec%3Ah264*~hmac=4cc18021c1102cecdaae1f3ad563ba7c9d7ed86179bd407b9d23422503c7bedc"
+        }
+      },
+      "userInfo": {
+        "packages": [
+          "Free",
+          "Registered",
+          "Fta",
+          "SimulcastEntertainment",
+          "LiveEventEntertainment",
+          "CMore",
+          "Bbc",
+          "Olympic1",
+          "Liiga",
+          "VodEntertainment",
+          "SvtSe",
+          "CMoreFi",
+          "LiveEventSport",
+          "Allsvenskan",
+          "SimulcastSport",
+          "FtaFi",
+          "VodSport"
+        ]
+      }
+    },
+    "id": "338",
+    "type": "channelPlaybackInfo"
+  },
+  "meta": {
+    "site": {
+      "attributes": {
+        "brand": "dplus",
+        "brandId": "dplus",
+        "mainTerritoryCode": "dk",
+        "theme": "dplus",
+        "websiteHostName": ""
+      },
+      "id": "dplus_dk",
+      "type": "site"
+    }
+  }
+}
