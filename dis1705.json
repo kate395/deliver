@@ -1,0 +1,72 @@
+{
+    "data": {
+        "attributes": {
+            "protection": {
+                "clearkeyEnabled": false,
+                "drmEnabled": true,
+                "drmToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImYxN2M1NWFkLTBhYmYtNTAwZi1mMTI2LTIwZjVlNjU2ZTE2OCIsIm9wZXJhdG9ySWQiOiIzMDg2In0.eyJleHAiOjE2ODQzNjYwOTMsImp0aSI6IjBiZjg3ZjMwLWI2ZTUtNGI1ZS1hYjdmLWUzOWY3MjkwZjhjYyIsInNjb3BlIjoibGljQXV0aCIsIm9wZXJhdG9ySWQiOiIzMDg2IiwibW9kZSI6IlNUUkVBTUlORyIsImNvbnRlbnRJZCI6IjE1OTQyMTc1MjEiLCJjb250ZW50VHlwZSI6IkxJVkUiLCJsaWNlbnNlRHVyYXRpb24iOiJQVDI0SDBNMFMiLCJwbGF5YmFja0R1cmF0aW9uIjoiUFQyNEgwTTBTIiwidXJpUHJvZmlsZUlkIjoiRlJFRV9VU0FHRSJ9.TgQHvo-Pu7lUKB_Fw8DvYtIJljdjqVFkWl2DcAAht_MmvdO_Z6mez2bgnv9BnTFSYhfVbg5evf_F6A602dq3QKF8a_gpOJ94MjsKPpXzb8THMFHebwfe6KNi4m4dUYT5giHByG-TDT3vREsTDFt4P5_LwLiYeHc-F2Lek966EAcf1Ds2wHD2pE5ps5opOrOOpBCU3bx_oBZpkbyKlimn95OZRClfXBUG-tTktGj3jnEyXQWCNNXr6rD2XjAG3SxKCQThUIA9Xh_uevujVwr03jBjyY_-5UI-dJcrYRO-4AOQIoQiwKpVynJvDVEEQRZHZPd_VxKIXU2zuM0lUekyIA",
+                "schemes": {
+                    "fairplay": {
+                        "certificateUrl": "https://discovery-eur.conax.cloud/fairplay/certificates/A30BAEFF134A609B019CBBB0D5880803B5D5E9D0",
+                        "licenseUrl": "https://discovery-eur.conax.cloud/fairplay/license"
+                    },
+                    "playready": {
+                        "licenseUrl": "https://discovery-eur.conax.cloud/cxplayready/rightsmanager.asmx"
+                    },
+                    "widevine": {
+                        "certificateUrl": "https://discovery-eur.conax.cloud/widevine/certificates/conax",
+                        "licenseUrl": "https://discovery-eur.conax.cloud/widevine/license"
+                    }
+                }
+            },
+            "reportProgressInterval": 60000,
+            "streaming": {
+                "dash": {
+                    "url": "https://dplus-eu-cloudfront.prod-live.h264.io/primary/2/5e370f1fc0144337bb1022bfeba4cd3d/x-discovery-token=Expires=1684333693&KeyName=primary&Signature=3jqZA_sEbYJ1Bq1ieFygkxFiOZc/index.mpd?aws.manifestfilter=video_codec:h264&hdnts=exp=1684333693~acl=/primary/2/5e370f1fc0144337bb1022bfeba4cd3d/index.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264*~hmac=86fb5d5ac2b79a1b393cac2a229112ff36e02071dfef92f7ac2bd72d26a04814"
+                },
+                "hls": {
+                    "url": "https://dplus-eu-cloudfront.prod-live.h264.io/primary/2/fe157401310b40839f8b3ce947d862cf/x-discovery-token=Expires=1684333693&KeyName=primary&Signature=lAZFHxv0a0wDkLR9r0zYb9kG6hQ/index.m3u8?aws.manifestfilter=video_codec:h264&hdnts=exp=1684333693~acl=/primary/2/fe157401310b40839f8b3ce947d862cf/index.m3u8%3Faws.manifestfilter%3Dvideo_codec%3Ah264*~hmac=e5dfae797063f5272b1ba882780b5fa688aa9b6d6d6ffd11bab7226b28b211a8"
+                },
+                "mss": {
+                    "url": "https://europe-fastly-mediashield-live-prod.cdn.h264.io/primary/2/b646e93ae4e0454592d664edf270b796/x-discovery-token=Expires=1684333693&KeyName=primary&Signature=cLza4kTLXbl_29cz6Trnzsopp9U/index.ism/Manifest?aws.manifestfilter=video_bitrate:900000-5500000;video_codec:h264&hdnts=exp=1684333693~acl=/primary/2/b646e93ae4e0454592d664edf270b796/index.ism/Manifest%3Faws.manifestfilter%3Dvideo_bitrate%3A900000-5500000%3Bvideo_codec%3Ah264*~hmac=635483a5159258276eec42c4c821ab1fbb4cb64a89812817946a7aaa104d93be"
+                }
+            },
+            "userInfo": {
+                "packages": [
+                    "Free",
+                    "Registered",
+                    "Fta",
+                    "SimulcastEntertainment",
+                    "LiveEventEntertainment",
+                    "CMore",
+                    "Bbc",
+                    "Olympic1",
+                    "Liiga",
+                    "VodEntertainment",
+                    "SvtSe",
+                    "CMoreFi",
+                    "LiveEventSport",
+                    "Allsvenskan",
+                    "SimulcastSport",
+                    "FtaFi",
+                    "VodSport"
+                ]
+            }
+        },
+        "id": "354",
+        "type": "channelPlaybackInfo"
+    },
+    "meta": {
+        "site": {
+            "attributes": {
+                "brand": "dplus",
+                "brandId": "dplus",
+                "mainTerritoryCode": "dk",
+                "theme": "dplus",
+                "websiteHostName": ""
+            },
+            "id": "dplus_dk",
+            "type": "site"
+        }
+    }
+}
