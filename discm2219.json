@@ -1,0 +1,72 @@
+{
+  "data": {
+    "attributes": {
+      "protection": {
+        "clearkeyEnabled": false,
+        "drmEnabled": true,
+        "drmToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImYxN2M1NWFkLTBhYmYtNTAwZi1mMTI2LTIwZjVlNjU2ZTE2OCIsIm9wZXJhdG9ySWQiOiIzMDg2In0.eyJleHAiOjE2ODUwMzY1MTcsImp0aSI6IjZlMzRhZGFlLWYyZGYtNDcwMS1hYWExLWM1MWFhMDdmMTA3ZCIsInNjb3BlIjoibGljQXV0aCIsIm9wZXJhdG9ySWQiOiIzMDg2IiwibW9kZSI6IlNUUkVBTUlORyIsImNvbnRlbnRJZCI6IjE1OTQyMTU3MTYiLCJjb250ZW50VHlwZSI6IkxJVkUiLCJsaWNlbnNlRHVyYXRpb24iOiJQVDI0SDBNMFMiLCJwbGF5YmFja0R1cmF0aW9uIjoiUFQyNEgwTTBTIiwidXJpUHJvZmlsZUlkIjoiRlJFRV9VU0FHRSJ9.CntL54CqsAPi6BJsZ0fdFH_HNL53kiSsd3vsWY0jLaqwHai1b9QExyraTzK82rG_EQpkO2KsY-se-jlr7D9EC1ie5lKXFLZmupOi3aBPAUUDAnQ1TpetcJzMuuEOT9gZcIJDOUf9SKYDKH3-vRKmnl_RnV1Mmjy7f1k0ejmAgkijOEP9RgVmGQhGjL2KZTlQwYCez1ZL6Z0nEHKQFvxt7pODjDrUWtnrQUmj7RmNGaD1zd8tlC9TzRd46RTjpUqz2vvYA4vuk_qEmD2BWTVoWc2s3VhqyldYAewJE4znqzzPwTTHu_NOF5za4FLS1FoT7VZzFP25hFsqDnaTr0djLw",
+        "schemes": {
+          "fairplay": {
+            "certificateUrl": "https://discovery-eur.conax.cloud/fairplay/certificates/A30BAEFF134A609B019CBBB0D5880803B5D5E9D0",
+            "licenseUrl": "https://discovery-eur.conax.cloud/fairplay/license"
+          },
+          "playready": {
+            "licenseUrl": "https://discovery-eur.conax.cloud/cxplayready/rightsmanager.asmx"
+          },
+          "widevine": {
+            "certificateUrl": "https://discovery-eur.conax.cloud/widevine/certificates/conax",
+            "licenseUrl": "https://discovery-eur.conax.cloud/widevine/license"
+          }
+        }
+      },
+      "reportProgressInterval": 60000,
+      "streaming": {
+        "dash": {
+          "url": "https://dplus-sport-live.akamai.prod-live.h264.io/primary/3/069dea58774b441e9a489a70e6b91636/hdntl=exp=1685004117~acl=/primary/3/069dea58774b441e9a489a70e6b91636/*~data=hdntl~hmac=008d15835472660ff2bd061b16b5b4e329c4f38c5673ffb28c8d7a68ab01c34d/index.mpd?aws.manifestfilter=video_codec:h264&hdnts=exp=1685004117~acl=/primary/3/069dea58774b441e9a489a70e6b91636/index.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264*~hmac=e0fc75d6cea694728a505fa7ef563fe0051ca71c9c90240ecfced129166d2f7e"
+        },
+        "hls": {
+          "url": "https://dplus-sport-live.akamai.prod-live.h264.io/primary/3/eb38ce3dafa643e8a7441b82ad6520c1/hdntl=exp=1685004117~acl=/primary/3/eb38ce3dafa643e8a7441b82ad6520c1/*~data=hdntl~hmac=48140093756089cb3de6ccddaef91f316eda49c0cae88d159ad0481893617652/index.m3u8?aws.manifestfilter=video_codec:h264&hdnts=exp=1685004117~acl=/primary/3/eb38ce3dafa643e8a7441b82ad6520c1/index.m3u8%3Faws.manifestfilter%3Dvideo_codec%3Ah264*~hmac=6b6227e6448ec204162160b1ab685be3ec558d4763e414cba29fd3a9deb2ab58"
+        },
+        "mss": {
+          "url": "https://dplus-sport-live.akamai.prod-live.h264.io/primary/3/f04753c9b7bd4753a39731befa437110/hdntl=exp=1685004117~acl=/primary/3/f04753c9b7bd4753a39731befa437110/*~data=hdntl~hmac=3d63077e08e94c0bfeb1682570502b347a2c9b806431317aaa602495ee9c80fb/index.ism/Manifest?aws.manifestfilter=video_bitrate:900000-5500000;video_codec:h264&hdnts=exp=1685004117~acl=/primary/3/f04753c9b7bd4753a39731befa437110/index.ism/Manifest%3Faws.manifestfilter%3Dvideo_bitrate%3A900000-5500000%3Bvideo_codec%3Ah264*~hmac=ef0036f3721c9ab2fa2faa0c87e1ee69cac6d990fc96ce05b00e9e4cf3e15b3f"
+        }
+      },
+      "userInfo": {
+        "packages": [
+          "Free",
+          "Registered",
+          "Fta",
+          "SimulcastEntertainment",
+          "LiveEventEntertainment",
+          "CMore",
+          "Bbc",
+          "Olympic1",
+          "Liiga",
+          "VodEntertainment",
+          "SvtSe",
+          "CMoreFi",
+          "LiveEventSport",
+          "Allsvenskan",
+          "SimulcastSport",
+          "FtaFi",
+          "VodSport"
+        ]
+      }
+    },
+    "id": "341",
+    "type": "channelPlaybackInfo"
+  },
+  "meta": {
+    "site": {
+      "attributes": {
+        "brand": "dplus",
+        "brandId": "dplus",
+        "mainTerritoryCode": "dk",
+        "theme": "dplus",
+        "websiteHostName": ""
+      },
+      "id": "dplus_dk",
+      "type": "site"
+    }
+  }
+}
