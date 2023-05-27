@@ -1,0 +1,72 @@
+{
+    "data": {
+        "attributes": {
+            "protection": {
+                "clearkeyEnabled": false,
+                "drmEnabled": true,
+                "drmToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImYxN2M1NWFkLTBhYmYtNTAwZi1mMTI2LTIwZjVlNjU2ZTE2OCIsIm9wZXJhdG9ySWQiOiIzMDg2In0.eyJleHAiOjE2ODUyNzkzNTMsImp0aSI6ImYyMTU5MDQxLWY2NzMtNDljMS1hZDcwLTkzN2I0MWIzMWFiZiIsInNjb3BlIjoibGljQXV0aCIsIm9wZXJhdG9ySWQiOiIzMDg2IiwibW9kZSI6IlNUUkVBTUlORyIsImNvbnRlbnRJZCI6IjE1OTQyMTczOTMiLCJjb250ZW50VHlwZSI6IkxJVkUiLCJsaWNlbnNlRHVyYXRpb24iOiJQVDI0SDBNMFMiLCJwbGF5YmFja0R1cmF0aW9uIjoiUFQyNEgwTTBTIiwidXJpUHJvZmlsZUlkIjoiRlJFRV9VU0FHRSJ9.QZkQxBmVPqrCcSM9lC2qBT__jG1rlEWqS1Mm3I77anVSpOT2BjFWa9FFkU24bJ8eHqdZzoQAgJIvp5DKxv7RfCX4w0ITKVkMgMq2XsBSvnNuOxt2hxTYXPYa_STVUkU_rRVY-xq5UPd6iDWJv2STr_kGYtXRl1cii18MU8q6uoIQPWy1CjQ7PeCKNJyE5CJOlqolOglz_lW6VAaT5t8iUhWH11RCA2fKEPVzd8MlvvPJ87BCssLdlUQihwZtrGvQ14Ir-t8rQcw3hJ92QzAgaSRUiU6EeJkiSP7Zq2BHLbkrw3THflRwaS8pt4UIGZqhE3YIHilIMLqIJ0aDR8j99A",
+                "schemes": {
+                    "fairplay": {
+                        "certificateUrl": "https://discovery-eur.conax.cloud/fairplay/certificates/A30BAEFF134A609B019CBBB0D5880803B5D5E9D0",
+                        "licenseUrl": "https://discovery-eur.conax.cloud/fairplay/license"
+                    },
+                    "playready": {
+                        "licenseUrl": "https://discovery-eur.conax.cloud/cxplayready/rightsmanager.asmx"
+                    },
+                    "widevine": {
+                        "certificateUrl": "https://discovery-eur.conax.cloud/widevine/certificates/conax",
+                        "licenseUrl": "https://discovery-eur.conax.cloud/widevine/license"
+                    }
+                }
+            },
+            "reportProgressInterval": 60000,
+            "streaming": {
+                "dash": {
+                    "url": "https://dplus-sport-live.akamai.prod-live.h264.io/primary/2/d0471f5150384ca78f9d508ca26321b3/hdntl=exp=1685246953~acl=/primary/2/d0471f5150384ca78f9d508ca26321b3/*~data=hdntl~hmac=39c9a1dc19f2bff8adeb7d667931e2f06b85cc08620c09502cfb1e1dbac6cfe9/index.mpd?aws.manifestfilter=audio_codec:AACL;video_codec:h264;video_height:1-1080;video_dynamic_range:sdr&hdnts=exp=1685246953~acl=/primary/2/d0471f5150384ca78f9d508ca26321b3/index.mpd%3Faws.manifestfilter%3Daudio_codec%3AAACL%3Bvideo_codec%3Ah264%3Bvideo_height%3A1-1080%3Bvideo_dynamic_range%3Asdr*~hmac=7d81f6f011326468e61ccfe532a8d4b00620d879f88d4f8b8317432529b539a8"
+                },
+                "hls": {
+                    "url": "https://dplus-sport-live.akamai.prod-live.h264.io/primary/2/1fcbc51de3b74a4b9447a7179059e76d/hdntl=exp=1685246953~acl=/primary/2/1fcbc51de3b74a4b9447a7179059e76d/*~data=hdntl~hmac=67e13ba79baeb4a1e16541831778ddcb9104b04ff51bfa31ebcf987fdf4da69d/cmafHls-fairplay/index.m3u8?aws.manifestfilter=video_codec:h264;video_height:1-1080;video_dynamic_range:sdr;audio_codec:AACL&hdnts=exp=1685246953~acl=/primary/2/1fcbc51de3b74a4b9447a7179059e76d/cmafHls-fairplay/index.m3u8%3Faws.manifestfilter%3Dvideo_codec%3Ah264%3Bvideo_height%3A1-1080%3Bvideo_dynamic_range%3Asdr%3Baudio_codec%3AAACL*~hmac=fc20e25ae84796174dcb10d564629fb091b268e900a76c552b57c9d0cdc5e402"
+                },
+                "mss": {
+                    "url": "https://europe-fastly-mediashield-live-prod.cdn.h264.io/primary/2/da32a1331835440485cdd406e015e082/x-discovery-token=Expires=1685246953&KeyName=primary&Signature=93hs0_HPjqTbqgv9JeQptAS9BHk/index.ism/Manifest?aws.manifestfilter=video_height:1-1080;video_dynamic_range:sdr;audio_codec:AACL;video_bitrate:900000-5500000;video_codec:h264&hdnts=exp=1685246953~acl=/primary/2/da32a1331835440485cdd406e015e082/index.ism/Manifest%3Faws.manifestfilter%3Dvideo_height%3A1-1080%3Bvideo_dynamic_range%3Asdr%3Baudio_codec%3AAACL%3Bvideo_bitrate%3A900000-5500000%3Bvideo_codec%3Ah264*~hmac=091ea7efa363a0069b835c00261f92a04278527f980e859f2ffcb17c3f01352d"
+                }
+            },
+            "userInfo": {
+                "packages": [
+                    "Free",
+                    "Registered",
+                    "Fta",
+                    "SimulcastEntertainment",
+                    "LiveEventEntertainment",
+                    "CMore",
+                    "Bbc",
+                    "Olympic1",
+                    "Liiga",
+                    "VodEntertainment",
+                    "SvtSe",
+                    "CMoreFi",
+                    "LiveEventSport",
+                    "Allsvenskan",
+                    "SimulcastSport",
+                    "FtaFi",
+                    "VodSport"
+                ]
+            }
+        },
+        "id": "297",
+        "type": "channelPlaybackInfo"
+    },
+    "meta": {
+        "site": {
+            "attributes": {
+                "brand": "dplus",
+                "brandId": "dplus",
+                "mainTerritoryCode": "dk",
+                "theme": "dplus",
+                "websiteHostName": ""
+            },
+            "id": "dplus_dk",
+            "type": "site"
+        }
+    }
+}
