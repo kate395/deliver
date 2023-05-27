@@ -1,0 +1,72 @@
+{
+  "data": {
+    "attributes": {
+      "protection": {
+        "clearkeyEnabled": false,
+        "drmEnabled": true,
+        "drmToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImYxN2M1NWFkLTBhYmYtNTAwZi1mMTI2LTIwZjVlNjU2ZTE2OCIsIm9wZXJhdG9ySWQiOiIzMDg2In0.eyJleHAiOjE2ODUyOTM2OTQsImp0aSI6IjE4MjIzYTYyLTgyMWUtNDY5NS04ZWNkLTMyZGFiNjkyMmJkMSIsInNjb3BlIjoibGljQXV0aCIsIm9wZXJhdG9ySWQiOiIzMDg2IiwibW9kZSI6IlNUUkVBTUlORyIsImNvbnRlbnRJZCI6IjE1OTQyMTUwMDMiLCJjb250ZW50VHlwZSI6IkxJVkUiLCJsaWNlbnNlRHVyYXRpb24iOiJQVDI0SDBNMFMiLCJwbGF5YmFja0R1cmF0aW9uIjoiUFQyNEgwTTBTIiwidXJpUHJvZmlsZUlkIjoiRlJFRV9VU0FHRSJ9.oQY7V2L4x250pqafzuWw3RhphEhV-dXtqTpW66TRRQB97ZlRjUpVexeNiSgFym7R263eI3G2Kzl8VKWOZ9umaF1YP6jAgBojUHmyFusAzh6dMD_VXbFyCHCTkHbp4OIi7paQQhVtoV-68o5TL68GHE5Z4HuyWOV4BZaZbfbrNloGpBMmXNPYckaPX7WZZRwLX5O2w8Efm92JrxvHxwBELAQC8Q4QvtHKp1XN4gFNN-J_ABURCcAhZYkzB9rCKYPUZMQfmVO3R28rA6Yit0R3MZSuC41UrthwYtDB-Z-hQTWRKt6r21R8z0j5KSwDPoER97tksrGFQ0pVjVasTQNXLQ",
+        "schemes": {
+          "fairplay": {
+            "certificateUrl": "https://discovery-eur.conax.cloud/fairplay/certificates/A30BAEFF134A609B019CBBB0D5880803B5D5E9D0",
+            "licenseUrl": "https://discovery-eur.conax.cloud/fairplay/license"
+          },
+          "playready": {
+            "licenseUrl": "https://discovery-eur.conax.cloud/cxplayready/rightsmanager.asmx"
+          },
+          "widevine": {
+            "certificateUrl": "https://discovery-eur.conax.cloud/widevine/certificates/conax",
+            "licenseUrl": "https://discovery-eur.conax.cloud/widevine/license"
+          }
+        }
+      },
+      "reportProgressInterval": 60000,
+      "streaming": {
+        "dash": {
+          "url": "https://dplus-sport-live.akamai.prod-live.h264.io/primary/1/329e6135a629448ebe8ac38417d1e048/hdntl=exp=1685261294~acl=/primary/1/329e6135a629448ebe8ac38417d1e048/*~data=hdntl~hmac=62f6cb37f07d7d419128e1a6f1780c8700fc4dc2f187ab484db68a39d1bc21a8/index.mpd?aws.manifestfilter=video_codec:h264&hdnts=exp=1685261294~acl=/primary/1/329e6135a629448ebe8ac38417d1e048/index.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264*~hmac=56a58def36cd6428512c6f0e41c81c5f1ac96485842159f405fe30ebab6785b4"
+        },
+        "hls": {
+          "url": "https://dplus-eu-cloudfront.prod-live.h264.io/primary/1/baddf3847c0d48699a3f6cbb91cdb58e/x-discovery-token=Expires=1685261294&KeyName=primary&Signature=PmTLyw2TE_z25MMxcYZuXtr5Z-I/index.m3u8?aws.manifestfilter=video_codec:h264&hdnts=exp=1685261294~acl=/primary/1/baddf3847c0d48699a3f6cbb91cdb58e/index.m3u8%3Faws.manifestfilter%3Dvideo_codec%3Ah264*~hmac=20014d675c155dbb0a32ede1adf4b63ad36a996c8775dd5c6d4077aa5c94b8dc"
+        },
+        "mss": {
+          "url": "https://dplus-sport-live.akamai.prod-live.h264.io/primary/1/39aea005f8b74f6ca3136983d3eb040d/hdntl=exp=1685261294~acl=/primary/1/39aea005f8b74f6ca3136983d3eb040d/*~data=hdntl~hmac=794adf658644271f011e87276c8db8c3ae724ddc2e9febcbd44304db58f08e13/index.ism/Manifest?aws.manifestfilter=video_bitrate:900000-5500000;video_codec:h264&hdnts=exp=1685261294~acl=/primary/1/39aea005f8b74f6ca3136983d3eb040d/index.ism/Manifest%3Faws.manifestfilter%3Dvideo_bitrate%3A900000-5500000%3Bvideo_codec%3Ah264*~hmac=f243b955dbb16e4ff34863fc3eff34f597e2beef34dabb155a8f37135d6a2cec"
+        }
+      },
+      "userInfo": {
+        "packages": [
+          "Free",
+          "Registered",
+          "Fta",
+          "SimulcastEntertainment",
+          "LiveEventEntertainment",
+          "CMore",
+          "Bbc",
+          "Olympic1",
+          "Liiga",
+          "VodEntertainment",
+          "SvtSe",
+          "CMoreFi",
+          "LiveEventSport",
+          "Allsvenskan",
+          "SimulcastSport",
+          "FtaFi",
+          "VodSport"
+        ]
+      }
+    },
+    "id": "338",
+    "type": "channelPlaybackInfo"
+  },
+  "meta": {
+    "site": {
+      "attributes": {
+        "brand": "dplus",
+        "brandId": "dplus",
+        "mainTerritoryCode": "dk",
+        "theme": "dplus",
+        "websiteHostName": ""
+      },
+      "id": "dplus_dk",
+      "type": "site"
+    }
+  }
+}
