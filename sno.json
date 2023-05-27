@@ -1,0 +1,31 @@
+{
+  "header": {
+    "source": "005-01",
+    "code": 0,
+    "message": "Success",
+    "system_time": "",
+    "tracking_id": ""
+  },
+  "data": {
+    "contentId": "",
+    "contentUrl": "U2FsdGVkX1%252F6XIEVaTRhjgxHgGxAJkVTMwnOUg99QGhl%252BQtosLUtJnWXwUbPia8tXXdJV8ZaJcmAFE0QpVmbMMbrifPWY9R7qYAzc9t8uusqHySC7%252FUND9MwObNj",
+    "licenseUrl": "U2FsdGVkX1%252F29LIwDnpxqqP%252Bni%252FwHpprT7oDs5lT%252BqOi17dp3AME2bOFR56hg28IzZdQwgSO9Vrjqryd7gR5vyOLEexOKkqI7M%252BBko25ZCeAwGypruZXUm7uykyvhyi8wQFehivFJqhl%252Bqw3aVtLeJlqE7id4lrQXSVYGolqszkPh2WMo0gwBQJkRVP0MbqOPbI99lcJWJoFu%252F9%252B5eDCfLtHRPL0KR4T1b42PqMcaWpAY3sjdGljD5wjts%252FkbtugudlazZlXagFhVQ3fddL1sCImztE0kLieUeETjJJnsUuyuW4toBB4Vg4as9pXycg15E04fdQnQ7toBP2AKNJi7vjoKih8%252FEst1jkGmzMD8I2JP015oBwKlJu7qV7%252Fqg8H6I5ShQrmXHjZaSUKx9cQ3Gwt2LYg795Jj70lMVIMiDw%252F9skQ%252B7%252Fjlrq%252B5VqtZO6MJX%252BR%252F0R5aUJ4DYnvsOXH7hNh4Pd481ZCI4ZZKU%252Bbd9JKYiiqVhWZW6G1RBjwS931oH8QLdqg9cyfuucY97%252FYXZnFc1FZSuN5tEvzxOfX67uSr9oxH7YBT0iiPwTl7RghJKFkYT3nPGfQcu5gJkPi3Tkd1aZDeNflFfRTTlsLdlClnLetuMiCE8PFBRFO7nHJLY46%252BQA8V36yscFLTNb3gR8hPbHpa6Qk9tJNdPOyg28qRtMxdT3xAVhvS5aOk82SIFVNvGFDM2tvuZKe23rVWJdpk16KHnwJDOOScpcg2HdgTa2ux81DKqP5kLlUM7DNtHMa4QRA1jd0JYYgvUhzmWD%252FwIhRjmWnLt0RFre9PETnzQLzv%252FGIby9KTWilRyQE6prwFR6VClsOPtrEDkB3aHNT3uDJzwOBeOBQijTHSAeWfFj%252BrtYz%252BSSzTGunI46Q%252FVHHDx4fNSwToU2J5cf2kVQoHsC%252FG78S%252B0ZVZvEJaodNMyQZhIojR90QKRf7jRcA8zP3vOYFV841xD0H3%252BcG20bohE4Ary78%252BWt6xzHbnN5M5HbHyLgZRVHMEU4%253D",
+    "licenseProvider": {
+      "provider": "firstlight",
+      "version": "1.0"
+    },
+    "mediaFormat": "dash",
+    "drm": "widevine",
+    "skd": "E059F470-B1B4-470C-BF08-58DFA5620D1B",
+    "heartbeatFlag": true,
+    "heartbeatToken": "",
+    "heartbeatFreq": 60000,
+    "ssaiEnabled": true,
+    "livePlaybackMode": "live",
+    "liveStartTime": "2023-05-27T13:30:00Z",
+    "liveEventType": "overflow",
+    "postSlateContentUrl": "https://live-streaming-rsm.azureedge.net/evsl02/evsl02.isml/.mpd",
+    "licenseRefreshToken": "",
+    "gameStatus": "half-over"
+  }
+}
