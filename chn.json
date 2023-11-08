@@ -1,5 +1,5 @@
-[{
-  "pk" : "Arena BIH" 
+{
+  "pk" : "Arena BIH" :[
   {
   "ty" : "mpd",
   "nm" : "ARENA SPORT PREMIUM 1",
@@ -18,5 +18,25 @@
  "nm" : "ARENA SPORT PREMIUM 2",
  "ke" : "U2FsdGVkX19rovDEZ4EjJTIItgfB8n%252F7KgWMQCWpFSw58Q5KBvrIpC90puWYsd3r%252Bq93HUp2%252Bei6EKePg2sNXC6M8jOcoxdOf4GPdMez7nuL0gt23rnncLfk8wC97fDYXXX0cIp2pnliB0QMLwnmRRmU%252B230aZJK2YyEYQ2XKHsfp7V6ShCZlYA%253D",
  "im" : "https://upload.wikimedia.org/wikipedia/en/8/8a/Arena_sport_logo.png"
-  }
-}]
+  }],
+   "pk" : "Arena RS" :[
+  {
+  "ty" : "mpd",
+  "nm" : "ARENA SPORT PREMIUM 1",
+  "ke" : "U2FsdGVkX19QRRdmWehLjGANtP83d83xCU%252FbxBRiQ8j2%252Bzd6Oabz%252Fc0MdgfNyaDI9XkV%252F2ID0ILMFlMFJfI%252F82volHzV2fr3OWFdaiFm9dhmyLDMk79C%252FnXo0ZsJoequf%252BQ1wkGzpqu5ULWzxLRVFRsApD5HHedEltUF46t5Eez0o8PzMgQbfOM%253D",
+  "im" : "https://upload.wikimedia.org/wikipedia/en/8/8a/Arena_sport_logo.png"
+  }, {
+  "ty" : "mpd",
+  "pl" : "Arena BIH" ,
+ "nm" : "ARENA SPORT PREMIUM 2",
+ "ke" : "U2FsdGVkX19rovDEZ4EjJTIItgfB8n%252F7KgWMQCWpFSw58Q5KBvrIpC90puWYsd3r%252Bq93HUp2%252Bei6EKePg2sNXC6M8jOcoxdOf4GPdMez7nuL0gt23rnncLfk8wC97fDYXXX0cIp2pnliB0QMLwnmRRmU%252B230aZJK2YyEYQ2XKHsfp7V6ShCZlYA%253D",
+ "im" : "https://upload.wikimedia.org/wikipedia/en/8/8a/Arena_sport_logo.png"
+  },
+  {
+  "ty" : "mpd",
+  "pl" : "Arena BIH" ,
+ "nm" : "ARENA SPORT PREMIUM 2",
+ "ke" : "U2FsdGVkX19rovDEZ4EjJTIItgfB8n%252F7KgWMQCWpFSw58Q5KBvrIpC90puWYsd3r%252Bq93HUp2%252Bei6EKePg2sNXC6M8jOcoxdOf4GPdMez7nuL0gt23rnncLfk8wC97fDYXXX0cIp2pnliB0QMLwnmRRmU%252B230aZJK2YyEYQ2XKHsfp7V6ShCZlYA%253D",
+ "im" : "https://upload.wikimedia.org/wikipedia/en/8/8a/Arena_sport_logo.png"
+  }],
+}
