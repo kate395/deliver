@@ -1,7 +1,7 @@
 {
    "0":{
       "pk":"Arena BIH",
-      "ch":[
+      "chn":[
          {
             "ty":"mpd",
             "nm":"ARENA SPORT PREMIUM 1",
@@ -24,7 +24,7 @@
    },
    "1":{
       "pk":"Arena RS",
-      "ch":[
+      "chn":[
          {
             "ty":"mpd",
             "nm":"ARENA SPORT PREMIUM 1",
