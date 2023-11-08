@@ -59,25 +59,43 @@
       ]
    },
    "1":{
-      "pk":"Arena RS",
+      "pk":"Dazn",
       "chn":[
          {
             "ty":"mpd",
-            "nm":"ARENA SPORT PREMIUM 1",
-            "ke":"U2FsdGVkX19QRRdmWehLjGANtP83d83xCU%252FbxBRiQ8j2%252Bzd6Oabz%252Fc0MdgfNyaDI9XkV%252F2ID0ILMFlMFJfI%252F82volHzV2fr3OWFdaiFm9dhmyLDMk79C%252FnXo0ZsJoequf%252BQ1wkGzpqu5ULWzxLRVFRsApD5HHedEltUF46t5Eez0o8PzMgQbfOM%253D",
-            "im":"https://upload.wikimedia.org/wikipedia/en/8/8a/Arena_sport_logo.png"
+            "nm":"Dazn ELEVEN 1 PT",
+            "ke":"U2FsdGVkX18flf6nSCuKVpNLBaxbqFJk9A2t4Zoh9FgAWYicTAAW%252BDQQKIasK44eUziXbgDITUUj%252B1irxkvxmE24KcZlqszsi%252Bmp%252FpFlt4VwlOLSY5jv%252BVQmR986TzsUxUEDgyW4Xjcs8eKEr3RYc2txXav4Lf2n5vVTMEePJZQwFe60hqFjIs9AJ%252BjukRmJhf22L7yW9L%252BC0fzxX1p1",
+            "im":"https://d1sgwhnao7452x.cloudfront.net/dazn-og.jpg"
+         },
+         {
+             "ty":"mpd",
+            "nm":"Dazn ELEVEN 2 PT",
+            "ke":"U2FsdGVkX1%252BIZIWBW7s7JjEQ%252BUKhXdZ%252FQ2XoJxH%252FP28gYJrQdHPNEyw%252FOyok32wRU%252B022lRIztYUoQkKb42mr1ml%252Be2cgSoPMb%252B6uE9RvP%252B3gWj0LIIyk0mCYPWT9I3%252F7LACfxycjVXKQVrB1w3IUJNfmNPlgCYGU33igu3%252BQXzQePw6j9m6KAv%252FBeZqbLfg5ayr2iVw3iB12OXs4whI",
+            "im":"https://d1sgwhnao7452x.cloudfront.net/dazn-og.jpg"
          },
          {
             "ty":"mpd",
-            "nm":"ARENA SPORT PREMIUM 2",
-            "ke":"U2FsdGVkX19rovDEZ4EjJTIItgfB8n%252F7KgWMQCWpFSw58Q5KBvrIpC90puWYsd3r%252Bq93HUp2%252Bei6EKePg2sNXC6M8jOcoxdOf4GPdMez7nuL0gt23rnncLfk8wC97fDYXXX0cIp2pnliB0QMLwnmRRmU%252B230aZJK2YyEYQ2XKHsfp7V6ShCZlYA%253D",
+            "nm":"Dazn ELEVEN 3 PT",
+            "ke":"U2FsdGVkX1%252Fjvj1tV0m0tOS3ug4qBGxKOGqkhy88%252FTOdyjuA2RhLuOSHxDW2X70kcWZZSu9tpNmurqASlvrgsHsjtwz1wKkKG1mrl%252FWPU5WnOOR3Mf9uBvqd9nq8yNowBPdyLiwSg5yE25FMt3NDYiVViaCcjj1E%252Bq3tSqevFsROtQTKU3F60IHXvX3NaJV7T6J3tYmIhNzF8SzewrOA",
             "im":"https://upload.wikimedia.org/wikipedia/en/8/8a/Arena_sport_logo.png"
          },
          {
-            "ty":"mpd",
-            "nm":"ARENA SPORT PREMIUM 2",
-            "ke":"U2FsdGVkX19rovDEZ4EjJTIItgfB8n%252F7KgWMQCWpFSw58Q5KBvrIpC90puWYsd3r%252Bq93HUp2%252Bei6EKePg2sNXC6M8jOcoxdOf4GPdMez7nuL0gt23rnncLfk8wC97fDYXXX0cIp2pnliB0QMLwnmRRmU%252B230aZJK2YyEYQ2XKHsfp7V6ShCZlYA%253D",
-            "im":"https://upload.wikimedia.org/wikipedia/en/8/8a/Arena_sport_logo.png"
+             "ty":"mpd",
+            "nm":"Dazn ELEVEN 4 PT",
+            "ke":"U2FsdGVkX1%252BXfoN9S7VMpGWpvjTcMppk5ncbbLU7cj3cxavMHp280JqThDFot3gInE4ZM%252FvCKj4t3eZPYDuuAN2iD%252F9%252BtOiduhlaAaBpBCHWqqKMiTR5c2qK6EFGqsc0oSmondeX6HnpOu%252Fblf4%252FkhP8y5Hm9BYmMpr78LzzPil8Uv3%252FQ5DOWE2SWoHOGV%252BA%252FxRGB5pQZVyVbwLfQ7hD",
+            "im":"https://d1sgwhnao7452x.cloudfront.net/dazn-og.jpg"
+         },
+         {
+             "ty":"mpd",
+            "nm":"Dazn ELEVEN 5 PT",
+            "ke":"U2FsdGVkX1%252BsddNcuqG3J5Yx3OYdRDeWiOTJZB%252Futfc4%252FZfXhWHxdZEIiEVagflNc0Rjuzsx0lIZqaTqirNbqs9PQGSDjql9kYv5PfyspWVx0cioRoipc%252F9j3SEfnyTMbUJujv%252FcIuOnHJt%252FQQkN2rsCneTTHNNZHb7ZO7DKRymn7ecACgMMLyqZC3iPbtqjerbHVT%252BqVlAfb5KwMXq1",
+            "im":"https://d1sgwhnao7452x.cloudfront.net/dazn-og.jpg"
+         },
+         {
+             "ty":"mpd",
+            "nm":"Dazn ELEVEN 6 PT",
+            "ke":"U2FsdGVkX18xvmpUiCzr%252BysgKLiAsXg0KaOw6xDczi1EMyC2EAwdkKBYfTTs5xCBtx9DTkbejoiT9ppU%252Bu4NTHl%252FWnsrnF2cjTKZgwh%252FgC%252B%252FRLRZneCOPEIyMKK1tJfkRqhHdxevdwAtLJ2JypSYCJw%252BWqmlNrMCDkn87YoOHHWlT5j0NwPjvR2dB%252BHYDzRAP1XOO4vkgpf2gi6%252FxQin",
+            "im":"https://d1sgwhnao7452x.cloudfront.net/dazn-og.jpg"
          }
       ]
    }
